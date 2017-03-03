@@ -15,15 +15,9 @@ body {
     margin: 0;
     color: #555;
 }
-h2, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Oswald", sans-serif;
     text-transform: lowercase;
-    
-}
-
-h1, h3 {
-    font-family: "Oswald", sans-serif;
-    color: #008948;
 }
 
 a {
@@ -34,6 +28,7 @@ a {
 
 #featured-header {
     text-align: center;
+    color: #008948;
     text-transform: uppercase;
     padding: 5px;
     background-color: transparent;
