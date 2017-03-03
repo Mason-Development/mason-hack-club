@@ -1,0 +1,169 @@
+/* Table of Contents
+1.0: Global
+ 1.1: Nav Bar
+2.0: Homepage Specific
+*/
+
+
+/* 1.0: Global */
+@import url('https://fonts.googleapis.com/css?family=Oswald:400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.3em;
+    margin: 0;
+    color: #555;
+}
+h2, h4, h5, h6 {
+    font-family: "Oswald", sans-serif;
+    text-transform: lowercase;
+    
+}
+
+h1, h3 {
+    font-family: "Oswald", sans-serif;
+    color: #008948;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+    border-bottom: 2px solid #008948;
+}
+
+#featured-header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: transparent;
+    margin: 0 auto;
+    font-size: 5em;
+}
+
+#featured-body-green {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#block-green {
+    background-color: #008948;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+#block-green a {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+#featured-body-white {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#block-white {
+    background-color: #fff;
+    color: #555;
+}
+
+#featured-body-grey {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#block-grey {
+    background-color: #eee;
+    color: #555;
+    padding: 5px;
+    padding-top: 0;
+}
+
+#caption {
+    font-style: italic;
+    text-transform: lowercase;
+    font-size: .7em;
+    color: #222;
+}
+
+#content {
+    margin: 0 auto;
+    /* max-width: 50em; */
+    /*padding: 10px; */
+}
+
+#footer {
+    font-size: .7em;
+    text-transform: lowercase;
+    color: #222;
+    padding-left: 10px;
+}
+
+/* 1.1: Nav Bar */
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {float: left;}
+
+li a {
+    display: inline-block;
+    color: #008948;
+    text-align: center;
+    text-transform: lowercase;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom: 0;
+}
+
+li a:hover, .dropdown:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+li.dropdown {display: inline-block;}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 2px solid #339966;
+}
+
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+    color: #555;
+    
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* 2.0: Homepage Specific */
+#left {
+    float: left;
+    width: 50%;
+}
+
+#right {
+    float: right;
+    width: 50%;
+}
