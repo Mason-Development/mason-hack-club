@@ -10,10 +10,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i');
 @import url('https://use.fontawesome.com/c684d46d81.css');
 
+/*media 775*/
 
 body {
     font-family: "Open Sans", sans-serif;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 0;
     color: #555;
 }
@@ -57,6 +58,8 @@ a {
 
 #featured-body-white {
     max-width: 1200px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin: 0 auto;
 }
 
@@ -98,6 +101,28 @@ a {
 }
 
 /* 1.1: Nav Bar */
+
+/*@media screen and (max-width: 774px) {*/
+/*    .nav {display: none;}*/
+/*    .nav-hidden {display: block;}*/
+/*}*/
+
+/*@media screen and (min-width: 775px) {*/
+/*    .nav {display: block;}*/
+/*    .nav-hidden {display: none;}*/
+/*}*/
+
+/*.nav-hidden {*/
+    /*display: inline-block;*/
+/*    float: left;*/
+/*    list-style-type: none;*/
+/*    margin-top: 0;*/
+/*    padding: 20px;*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*.nav-hidden:hover .nav {display: block;}*/
+
 .nav {
     list-style-type: none;
     margin: 0;
