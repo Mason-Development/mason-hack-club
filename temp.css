@@ -1,25 +1,23 @@
 /* Table of Contents
-1.0: Imports
-2.0: Global
- 2.1: Nav Bar
+1.0: Global
+ 1.1: Nav Bar
+2.0: Homepage Specific
 */
 
 
-/* 1.0: Imports */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i');
+/* 1.0: Global */
 @import url('https://fonts.googleapis.com/css?family=Oswald:400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i');
 @import url('https://use.fontawesome.com/c684d46d81.css');
 
 /*media 775*/
 
-/* 2.0: Global */
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 1.2em;
     margin: 0;
     color: #555;
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Oswald", sans-serif;
     text-transform: lowercase;
@@ -29,17 +27,6 @@ a {
     text-decoration: none;
     color: #555;
     border-bottom: 2px solid #008948;
-}
-
-#caption {
-    font-style: italic;
-    text-transform: lowercase;
-    font-size: .7em;
-    color: #222;
-}
-
-#content {
-    margin: 0 auto;
 }
 
 #featured-header {
@@ -52,6 +39,11 @@ a {
     font-size: 5em;
 }
 
+#featured-body-green {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 #block-green {
     background-color: #008948;
     color: #fff;
@@ -59,14 +51,16 @@ a {
     padding: 5px;
 }
 
-#featured-body-green {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-#featured-body-green a {
+#block-green a {
     color: #fff;
     border-bottom: 1px solid #fff;
+}
+
+#featured-body-white {
+    max-width: 1200px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0 auto;
 }
 
 #block-white {
@@ -74,10 +68,8 @@ a {
     color: #555;
 }
 
-#featured-body-white {
-    max-width: 1200px;
-    padding-left: 5px;
-    padding-right: 5px;
+#featured-body-grey {
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -88,9 +80,17 @@ a {
     padding-top: 0;
 }
 
-#featured-body-grey {
-    max-width: 800px;
+#caption {
+    font-style: italic;
+    text-transform: lowercase;
+    font-size: .7em;
+    color: #222;
+}
+
+#content {
     margin: 0 auto;
+    /* max-width: 50em; */
+    /*padding: 10px; */
 }
 
 #footer {
@@ -100,7 +100,28 @@ a {
     padding-left: 10px;
 }
 
-/* 2.1: Nav Bar */
+/* 1.1: Nav Bar */
+
+/*@media screen and (max-width: 774px) {*/
+/*    .nav {display: none;}*/
+/*    .nav-hidden {display: block;}*/
+/*}*/
+
+/*@media screen and (min-width: 775px) {*/
+/*    .nav {display: block;}*/
+/*    .nav-hidden {display: none;}*/
+/*}*/
+
+/*.nav-hidden {*/
+    /*display: inline-block;*/
+/*    float: left;*/
+/*    list-style-type: none;*/
+/*    margin-top: 0;*/
+/*    padding: 20px;*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*.nav-hidden:hover .nav {display: block;}*/
 
 .nav {
     list-style-type: none;
@@ -154,4 +175,15 @@ a {
     background-color: #f1f1f1;
     color: #555;
     
+}
+
+/* 2.0: Homepage Specific */
+#left {
+    float: left;
+    width: 50%;
+}
+
+#right {
+    float: right;
+    width: 50%;
 }
