@@ -31,69 +31,65 @@ a {
     border-bottom: 2px solid #008948;
 }
 
-#caption {
+.caption {
     font-style: italic;
     text-transform: lowercase;
     font-size: .7em;
     color: #222;
 }
 
-#content {
-    margin: 0 auto;
-}
-
-#featured-header {
+.title {
     text-align: center;
     color: #008948;
     text-transform: uppercase;
     padding: 5px;
-    background-color: transparent;
     margin: 0 auto;
+    background-color: transparent;
     font-size: 5em;
 }
 
-#block-green {
+.block-green {
     background-color: #008948;
     color: #fff;
     text-align: center;
     padding: 5px;
 }
 
-#featured-body-green {
+.body-green {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-#featured-body-green a {
+.body-green a {
     color: #fff;
     border-bottom: 1px solid #fff;
 }
 
-#block-white {
+.block-white {
     background-color: #fff;
     color: #555;
 }
 
-#featured-body-white {
+.body-white {
     max-width: 1200px;
     padding-left: 5px;
     padding-right: 5px;
     margin: 0 auto;
 }
 
-#block-grey {
+.block-grey {
     background-color: #eee;
     color: #555;
     padding: 5px;
     padding-top: 0;
 }
 
-#featured-body-grey {
+.body-grey {
     max-width: 800px;
     margin: 0 auto;
 }
 
-#footer {
+.footer {
     font-size: .7em;
     text-transform: lowercase;
     color: #222;
