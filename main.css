@@ -15,7 +15,7 @@
 /* 2.0: Global */
 body {
     font-family: "Open Sans", sans-serif;
-    font-size: 1.2em;
+    font-size: 19.2px;
     margin: 0;
     color: #555;
 }
@@ -34,7 +34,7 @@ a {
 .caption {
     font-style: italic;
     text-transform: lowercase;
-    font-size: .7em;
+    font-size: .9em;
     color: #222;
 }
 
