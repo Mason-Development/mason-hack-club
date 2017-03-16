@@ -15,17 +15,17 @@ This guide assumes that the person has an active Github and Cloud9 account. Foll
 1. Save all edited files on Cloud9. 
 2. Open up the Cloud9 terminal (keyboard shortcut <kbd>Alt+t</kbd>).
 3. Type the following commands:
-  - `$ git add -A`
-    - Adds all files to the stage.
-  - `$ git commit -m "Comment"`
-    - Commits the files & adds your comment.
-  - `$ git push`
-    - Pushes the files to Github.
-      - **NOTE:** you have to type your Github username and password in after typing `git push`. The password will not be shown on your screen, but it is still being registered.
-  - `$ git ftp push`
-    - Pushes the files to the webserver.
+    - `$ git add -A`
+      - Adds all files to the stage.
+    - `$ git commit -m "Comment"`
+      - Commits the files & adds your comment.
+    - `$ git push`
+      - Pushes the files to Github.
+        - **NOTE:** you have to type your Github username and password in after typing `git push`. The password will not be shown on your screen, but it is still being registered.
+    - `$ git ftp push`
+      - Pushes the files to the webserver.
 4. Clear your cache.
-  - ([Clear Cache](https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?utm_source=chrome-app-launcher-info-dialog) is a quick and easy plugin for Chrome).
+    - ([Clear Cache](https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?utm_source=chrome-app-launcher-info-dialog) is a quick and easy plugin for Chrome).
 5. Go to hackclub.masonacm.org and check out your updates!
 
 ---
