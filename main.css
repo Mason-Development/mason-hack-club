@@ -96,6 +96,12 @@ a {
     padding-left: 10px;
 }
 
+.embed {
+    width: 98%;
+    padding: 0 1%;
+    text-align: center;
+}
+
 /* 2.1: Nav Bar */
 
 .nav {
