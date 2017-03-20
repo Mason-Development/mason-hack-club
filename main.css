@@ -42,10 +42,10 @@ a {
     text-align: center;
     color: #008948;
     text-transform: uppercase;
-    padding: 5px;
     margin: 0 auto;
     background-color: transparent;
-    font-size: 5em;
+    /*font-size: 5em;*/
+    font-size: 10vw;
 }
 
 .block-green {
