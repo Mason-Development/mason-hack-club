@@ -108,6 +108,29 @@ a {
     padding: 0;
 }
 
+#list {
+    margin: auto;
+    width: 450px;
+    padding-bottom: 5px;
+}
+
+#list th {
+    font-family: "Oswald", sans-serif;
+    width: 50%;
+    padding: 5px 0;
+}
+
+#list td {
+    width: 50%;
+    padding: 5px 0;
+}
+
+#list caption {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    /*text-transform: lowercase;*/
+}
 /* 2.1: Nav Bar */
 .nav {
     list-style-type: none;
