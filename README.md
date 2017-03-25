@@ -1,6 +1,6 @@
 # Mason Hack Club Website
 
-This site is edited in Cloud9, and stored in GitHub and Mason High School's server. If you're interested in contributing, request to join the [Web Development Team](https://github.com/orgs/Mason-Development/teams/web-development) on GitHub or message []@cravend](https://hackclub.slack.com/messages/@cravend) on Slack.
+This site is edited in Cloud9, and stored in GitHub and Mason High School's server. If you're interested in contributing, request to join the [Web Development Team](https://github.com/orgs/Mason-Development/teams/web-development) on GitHub or message [@cravend](https://hackclub.slack.com/messages/@cravend) on Slack.
 
 ## Inviting New People
 
