@@ -110,19 +110,20 @@ a {
 
 #list {
     margin: auto;
-    width: 450px;
+    width: 600px;
     padding-bottom: 5px;
 }
 
 #list th {
     font-family: "Oswald", sans-serif;
-    width: 50%;
+    width: 33%;
     padding: 5px 0;
 }
 
 #list td {
-    width: 50%;
-    padding: 5px 0;
+    width: 33%;
+    border-top: 1px solid #555;
+    padding: 8px 0;
 }
 
 #list caption {
