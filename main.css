@@ -31,6 +31,11 @@ a {
     border-bottom: 2px solid #008948;
 }
 
+a:hover {
+    color: #008948;
+    border-bottom: none;
+}
+
 .caption {
     font-style: italic;
     text-transform: lowercase;
@@ -96,6 +101,14 @@ a {
     padding-left: 10px;
 }
 
+.footer a {
+    color: #222;
+}
+
+.footer a:hover {
+    color: #008948;
+}
+
 .embed {
     width: 98%;
     margin: 0;
@@ -106,6 +119,15 @@ a {
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+
+.icon {
+    transition: 0.3s;
+}
+
+.icon:hover {
+    color: #008948;
 }
 
 #list {
@@ -141,7 +163,9 @@ a {
     background-color: transparent;
 }
 
-.nav-top {float: left;}
+.nav-top {
+    float: left;
+}
 
 .nav-top a {
     display: inline-block;
@@ -156,7 +180,9 @@ a {
     border-bottom: 0;
 }
 
-.nav-top:hover .nav-dropdown-content {display: block;}
+.nav-top:hover .nav-dropdown-content {
+    display: block
+}
 
 .nav-top a:hover, .nav-dropdown:hover {
     background-color: #555;
