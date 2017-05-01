@@ -1,6 +1,7 @@
 // Variable to hold request
 var request;
 var email;
+
 // Bind to the submit event of our form
 $("#register").submit(function(event){
 
