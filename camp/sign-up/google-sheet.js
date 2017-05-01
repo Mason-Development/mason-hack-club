@@ -1,6 +1,6 @@
 // Variable to hold request
 var request;
-
+var email;
 // Bind to the submit event of our form
 $("#register").submit(function(event){
 
@@ -36,6 +36,16 @@ $("#register").submit(function(event){
         console.log(response);
         console.log(textStatus);
         console.log(jqXHR);
+        
+        email = $.ajax({
+            url: "https://formspree.io/20dalton00@gmail.com", 
+            method: "POST",
+            data: serializedData,
+            dataType: "json"
+        });
+        
+        
+        
     });
 
     // Callback handler that will be called on failure
