@@ -38,7 +38,7 @@ $("#register").submit(function(event){
         console.log(jqXHR);
         
         email = $.ajax({
-            url: "https://formspree.io/20dalton00@gmail.com", 
+            url: "https://formspree.io/masonhackclub@gmail.com", 
             method: "POST",
             data: serializedData,
             dataType: "json"
