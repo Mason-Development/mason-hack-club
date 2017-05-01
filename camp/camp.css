@@ -1,0 +1,38 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://use.fontawesome.com/24c942aa78.css");
+
+.person {
+    width: 60%;
+    padding-bottom: 10px;
+}
+
+.block-green {
+    color: #fff;
+    background-color: #008948;
+    margin-bottom: 0;
+}
+
+.no-decoration {
+    color: #fff;
+}
+
+.no-decoration:hover {
+    color: #fff;
+}
+
+.req {
+    color: #FF4000;
+}
+
+.first {
+    padding-bottom: 0;
+}
+
+.second {
+    padding-top: 0;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}

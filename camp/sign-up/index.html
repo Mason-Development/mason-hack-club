@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign Up | Hack Camp 2017</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../camp.css" />
+    </head>
+    <body>
+        
+        <div class="jumbotron block-green">
+            <div class="container text-center">
+                <h1>Hack Camp 2017</h1>
+                <p>Sign up today!</p>
+            </div>
+        </div>
+        <br>
+        <form id="register">
+            <div class="container-fluid">
+                <div class="col-md-6 col-md-offset-3 panel-group">
+                    <div class="panel panel-default">
+                        <p class="panel-heading">Student</p>
+                        <div class="panel-body first">
+                            <div class="form-group">
+                                <label for="sfname">First Name <span class="req">*</span></label>
+                                <input type="text" class="form-control" id="sfname" name="sfname" aria-describedby="First Name" placeholder="John" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="slname">Last Name <span class="req">*</span></label>
+                                <input type="text" class="form-control" id="slname" name="slname" aria-describedby="Last Name" placeholder="Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="semail">Email Address <span class="req">*</span></label>
+                                <input type="email" class="form-control" id="semail" name="semail" aria-describedby="Email Address" placeholder="jdoe@gmail.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="age">Age <span class="req">*</span></label>
+                                <input type="number" min="1" max="18" class="form-control" id="age" name="age" aria-describedby="Age" placeholder="13" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="grade">Grade <span class="req">*</span><br><small>2017-2018 School Year</small></label>
+                                <input type="number" min="1" max="12" class="form-control" id="grade" name="grade" aria-describedby="Grade" placeholder="7" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sphone">Phone Number</label>
+                                <input type="tel" class="form-control" id="sphone" name="sphone" aria-describedby="Phone Number" placeholder="(513) 555-5555">
+                            </div>
+                            <div class="form-group">
+                                <label for="github">GitHub<br><small>(if you have one!)</small></label>
+                                <input type="text" class="form-control" id="github" name="github" aria-describedby="GitHub Username" placeholder="jdoehack">
+                            </div>
+                            <div class="form-group">
+                                <label for="website">Website<br><small>(if you have one!)</small></label>
+                                <input type="text" class="form-control" id="website" name="website" aria-describedby="Website Address" placeholder="https://jdoehack.com">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="panel-body second">
+                            <div class="form-group">
+                                <label for="laptop">Do you have a laptop? <span class="req">*</span></label>
+                                <div class="radio" id="laptop">
+                                    <label><input type="radio" name="laptop" value="yes" required>Yes</label><br>
+                                    <label><input type="radio" name="laptop" value="no" required>No</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleSelect1">How much have you coded? <span class="req">*</span></label>
+                                <select class="form-control" id="code" name="code" required>
+                                    <option>I've never coded before</option>
+                                    <option>I've taken a few lessons</option>
+                                    <option>I've finished a project</option>
+                                    <option>I code frequently</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="refer">How did you hear about Hack Camp?</label>
+                                <input type="text" class="form-control" id="refer" name="refer" aria-describedby="How did you hear about Hack Camp?" placeholder="Magical Genies">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <p class="panel-heading">Parent</p>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="pfname">First Name <span class="req">*</span></label>
+                                <input type="text" class="form-control" id="pfname" name="pfname" aria-describedby="First Name" placeholder="Mary" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="plname">Last Name <span class="req">*</span></label>
+                                <input type="text" class="form-control" id="plname" name="plname" aria-describedby="Last Name" placeholder="Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="pemail">Email Address <span class="req">*</span></label>
+                                <input type="email" class="form-control" id="pemail" name="pemail" aria-describedby="Email Address" placeholder="mdoe@gmail.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="pphone">Phone Number <span class="req">*</span></label>
+                                <input type="tel" class="form-control" id="pphone" name="pphone" aria-describedby="Phone Number" placeholder="(513) 555-5555" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jumbotron block-green">
+                <div class="container text-center">
+                     <button type="submit" class="btn btn-default btn-lg">submit!</button>
+                </div>
+            </div>
+        </form>
+        
+        <footer class="container-fluid text-center">
+            <p>© 2017 Mason Hack Club | <a href="#">register now!</a></p>
+        </footer>
+        <script src='google-sheet.js'></script>
+    </body>
+</html>
