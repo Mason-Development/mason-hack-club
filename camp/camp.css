@@ -1,5 +1,5 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
-@import url("https://use.fontawesome.com/24c942aa78.css");
+@import url("https://use.fontawesome.com/c684d46d81.css");
 
 .person {
     width: 60%;
@@ -30,6 +30,10 @@
 
 .second {
     padding-top: 0;
+}
+
+.social {
+    text-align: center;
 }
 
 footer {
