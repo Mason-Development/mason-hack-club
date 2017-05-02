@@ -4,9 +4,9 @@
         <title>Sign Up | Hack Camp 2017</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" sizes="180x180" href="../../icons/apple-touch-icon.png">
         <link rel="icon" type="image/png" href="../../icons/favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="../../icons/favicon-16x16.png" sizes="16x16">
+        <link rel="apple-touch-icon" sizes="180x180" href="../../icons/apple-touch-icon.png">
         <link rel="manifest" href="../../icons/manifest.json">
         <link rel="mask-icon" href="../../icons/safari-pinned-tab.svg" color="#008948">
         <link rel="shortcut icon" href="../../icons/favicon.ico">
@@ -30,6 +30,8 @@
         <br>
         <form id="register">
             <div class="container-fluid">
+                <img src='/favicon.ico'>
+                <br><br>
                 <div class="col-md-6 col-md-offset-3 panel-group">
                     <div class="panel panel-default">
                         <p class="panel-heading">Student</p>
@@ -77,12 +79,21 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="exampleSelect1">How much have you coded? <span class="req">*</span></label>
+                                <label for="code">How much have you coded? <span class="req">*</span></label>
                                 <select class="form-control" id="code" name="code" required>
                                     <option>I've never coded before</option>
                                     <option>I've taken a few lessons</option>
                                     <option>I've finished a project</option>
                                     <option>I code frequently</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="shirt">Shirt Size <span class="req">*</span></label>
+                                <select class="form-control" id="shirt" name="shirt" required>
+                                    <option value="S">Adult Small</option>
+                                    <option value="M">Adult Medium</option>
+                                    <option value="L">Adult Large</option>
+                                    <option value="XL">Adult Extra Large</option>
                                 </select>
                             </div>
                             <div class="form-group">
