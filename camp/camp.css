@@ -13,6 +13,7 @@
 }
 
 .no-decoration {
+    /*text-decoration: none;*/
     color: #fff;
 }
 
@@ -30,10 +31,6 @@
 
 .second {
     padding-top: 0;
-}
-
-.social {
-    text-align: center;
 }
 
 footer {
