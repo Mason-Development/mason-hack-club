@@ -63,7 +63,7 @@ $("#register").submit(function(event){
     request.always(function () {
         // Reenable the inputs
         $inputs.prop("disabled", false);
-        window.location = 'confirm.html';
+        window.location = './confirm.html';
     });
 
     // Prevent default posting of form
