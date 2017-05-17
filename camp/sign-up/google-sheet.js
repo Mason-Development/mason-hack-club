@@ -1,8 +1,9 @@
 // Variable to hold request
 var request;
+var email;
 
 // Bind to the submit event of our form
-$("#foo").submit(function(event){
+$("#register").submit(function(event){
 
     // Abort any pending request
     if (request) {
@@ -10,7 +11,7 @@ $("#foo").submit(function(event){
     }
     // setup some local variables
     var $form = $(this);
-
+    
     // Let's select and cache all the fields
     var $inputs = $form.find("input, select, button, textarea");
 
@@ -24,7 +25,7 @@ $("#foo").submit(function(event){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "SCRIPT URL GOES HERE",
+        url: "https://script.google.com/macros/s/AKfycbxupIwLzQQLhwbdLpn59jOdKmwW_wjsGFLITtSPbhqj84S4Wb5z/exec",
         type: "post",
         data: serializedData
     });
@@ -36,6 +37,16 @@ $("#foo").submit(function(event){
         console.log(response);
         console.log(textStatus);
         console.log(jqXHR);
+        
+        email = $.ajax({
+            url: "https://formspree.io/masonhackclub@gmail.com", 
+            method: "POST",
+            data: serializedData,
+            dataType: "json"
+        });
+        
+        
+        
     });
 
     // Callback handler that will be called on failure
@@ -52,6 +63,7 @@ $("#foo").submit(function(event){
     request.always(function () {
         // Reenable the inputs
         $inputs.prop("disabled", false);
+        window.location = 'confirm.html';
     });
 
     // Prevent default posting of form
