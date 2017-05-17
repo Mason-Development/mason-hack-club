@@ -4,27 +4,18 @@
         <title>Sign Up | Hack Camp 2017</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="../../icons/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="../../icons/favicon-16x16.png" sizes="16x16">
-        <link rel="apple-touch-icon" sizes="180x180" href="../../icons/apple-touch-icon.png">
-        <link rel="manifest" href="../../icons/manifest.json">
-        <link rel="mask-icon" href="../../icons/safari-pinned-tab.svg" color="#008948">
-        <link rel="shortcut icon" href="../../icons/favicon.ico">
-        <meta name="apple-mobile-web-app-title" content="Mason Hack Club">
-        <meta name="application-name" content="Mason Hack Club">
-        <meta name="msapplication-config" content="../../icons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="../camp.css" />
+        <link rel="stylesheet" href="/camp/camp.css" />
+        <link rel="icon" href="/favicon.ico">
     </head>
     <body>
         
         <div class="jumbotron block-green">
             <div class="container text-center">
                 <h1>Hack Camp 2017</h1>
-                <p>Sign up today!</p>
+                <p>Register by June 15th for a free camp t-shirt.</p>
+                <p>Walk-ins are welcome!</p>
             </div>
         </div>
         <br>
@@ -122,11 +113,24 @@
                             </div>
                         </div>
                     </div>
+                    <div class="panel panel-default">
+                        <p class="panel-heading">Payment</p>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="pphone">Method of Payment <span class="req">*</span></label>
+                                <select class="form-control" id="code" name="code" required>
+                                    <option>EZPay</option>
+                                    <option>Mail cash/check</option>
+                                    <option>Pay on first day of camp</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="jumbotron block-green">
                 <div class="container text-center">
-                    <button type="submit" class="btn btn-default btn-lg">submit!</button>
+                    <button type="submit" class="btn btn-default btn-lg">Submit!</button>
                 </div>
             </div>
         </form>
