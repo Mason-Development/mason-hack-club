@@ -1,6 +1,42 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 @import url("https://use.fontawesome.com/c684d46d81.css");
 
+
+@font-face {
+    font-family: Lemonmilk;
+    src: url(assets/lemonmilk/LemonMilk.otf);
+}
+
+@font-face {
+    font-family: Lemonmilk;
+    src: url(assets/lemonmilk/LemonMilkbold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Lemonmilk;
+    src: url(assets/lemonmilk/LemonMilklight.otf);
+    font-weight: 100;
+}
+
+h1 {
+    font-family: "Lemonmilk";
+}
+
+h2, h3, h4, h5, h6, .btn {
+    font-family: "Lemonmilk";
+    font-weight: 100;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.black {
+    color: #000;    
+}
+
 .person {
     width: 60%;
     padding-bottom: 10px;
@@ -31,12 +67,6 @@
 .second {
     padding-top: 0;
 }
-
-footer {
-    background-color: #f2f2f2;
-    padding: 25px;
-}
-
 .pop {
     background-color: #ddeee6;
     padding: 1px;
