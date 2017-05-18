@@ -34,6 +34,15 @@ footer {
     padding: 25px;
 }
 
+.panel > .panel-heading {
+    background-image: none;
+    /*font-family: "Lemonmilk";*/
+    /*font-weight: 100;*/
+    background-color: #008948;
+    color: #fff;
+
+}
+
 .black {
     color: #000;    
 }
