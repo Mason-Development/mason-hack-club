@@ -3,17 +3,16 @@
     <head>
         <title>Sign Up | Hack Camp 2017</title>
         <meta charset="utf-8">
+        <link rel="icon" href="/favicon.ico">
+        <link rel="stylesheet" href="../camp.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="../camp.css" />
-        <link rel="icon" href="../../favicon.ico">
     </head>
     <body>
         
         <div class="jumbotron block-green">
             <div class="container text-center">
-                <h1>Hack Camp 2017</h1>
+                <a href="../" class="no-decoration"><h1>Hack Camp 2017</h1></a>
                 <p>Register by June 15th for a free camp t-shirt.</p>
                 <p>Walk-ins are welcome!</p>
             </div>
@@ -57,6 +56,14 @@
                             <div class="form-group">
                                 <label for="website">Website<br><small>(if you have one!)</small></label>
                                 <input type="text" class="form-control" id="website" name="website" aria-describedby="Website Address" placeholder="https://jdoehack.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">Gender <span class="req">*</span></label>
+                                <div class="radio" id="gender">
+                                    <label><input type="radio" name="gender" value="male" required>Male</label><br>
+                                    <label><input type="radio" name="gender" value="female" required>Female</label><br>
+                                    <label><input type="radio" name="other" value="other" required>Other</label>
+                                </div>
                             </div>
                         </div>
                         <hr>
