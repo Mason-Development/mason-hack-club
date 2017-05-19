@@ -37,13 +37,13 @@ $("#register").submit(function(event){
         console.log(response);
         console.log(textStatus);
         console.log(jqXHR);
-        
-        email = $.ajax({
-            url: "https://formspree.io/masonhackclub@gmail.com", 
-            method: "POST",
-            data: serializedData,
-            dataType: "json"
-        });
+        window.location = 'confirm.html';
+        // email = $.ajax({
+        //     url: "https://formspree.io/masonhackclub@gmail.com", 
+        //     method: "POST",
+        //     data: serializedData,
+        //     dataType: "json"
+        // });
         
         
         
@@ -63,7 +63,6 @@ $("#register").submit(function(event){
     request.always(function () {
         // Reenable the inputs
         $inputs.prop("disabled", false);
-        window.location = './confirm.html';
     });
 
     // Prevent default posting of form
