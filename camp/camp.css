@@ -81,3 +81,7 @@ footer {
     background-color: #ddeee6;
     padding: 1px;
 }
+
+.hidden {
+    display: none;
+}
