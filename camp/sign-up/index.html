@@ -30,14 +30,18 @@
                         <div class="panel-body">
                             <div class="form-group">
                                 <label for="sfname">First Name <span class="req">*</span></label>
-                                <input type="text" class="form-control" id="sfname" name="sfname" aria-describedby="First Name" placeholder="John" required>
+                                <input type="text" class="form-control" id="sfname" name="sfname" aria-describedby="First Name" placeholder="Johnathan" required>
                             </div>
                             <div class="form-group">
                                 <label for="slname">Last Name <span class="req">*</span></label>
                                 <input type="text" class="form-control" id="slname" name="slname" aria-describedby="Last Name" placeholder="Doe" required>
                             </div>
                             <div class="form-group">
-                                <label for="semail">Email Address <span class="req">*</span></label>
+                                <label for="preferred">Preferred Name <span class="req">*</span></label>
+                                <input type="text" class="form-control" id="preferred" name="preferred" aria-describedby="Preferred Name" placeholder="John" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="semail">Email Address <span class="req">*</span><br><small>You can use your masonohioschools.com email!</small></label>
                                 <input type="email" class="form-control" id="semail" name="semail" aria-describedby="Email Address" placeholder="jdoe@gmail.com" required>
                             </div>
                             <div class="form-group">
@@ -69,10 +73,11 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="laptop">Can you bring a laptop to camp every day?<span class="req">*</span></label>
+                            <!--    <label for="laptop">Can you bring a laptop to camp every day?<span class="req">*</span></label>-->
                                 <div class="radio" id="laptop">
-                                    <label><input type="radio" name="laptop" value="yes" required>Yes</label><br>
-                                    <label><input type="radio" name="laptop" value="no" required>No</label>
+                            <!--        <label><input type="radio" name="laptop" value="yes" required>Yes</label><br>-->
+                                    <label><input type="radio" name="laptop" value="yes" required hidden selected>Yes</label><br>
+                            <!--        <label><input type="radio" name="laptop" value="no" required>No</label>-->
                                 </div>
                             </div>
                             <div class="form-group">
