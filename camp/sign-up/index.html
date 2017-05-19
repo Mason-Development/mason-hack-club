@@ -37,6 +37,10 @@
                                 <input type="text" class="form-control" id="slname" name="slname" aria-describedby="Last Name" placeholder="Doe" required>
                             </div>
                             <div class="form-group">
+                                <label for="preferred">Preferred Name <span class="req">*</span></label>
+                                <input type="text" class="form-control" id="preferred" name="preferred" aria-describedby="Preferred Name" placeholder="John" required>
+                            </div>
+                            <div class="form-group">
                                 <label for="semail">Email Address <span class="req">*</span><br><small>You can use your masonohioschools.com email!</small></label>
                                 <input type="email" class="form-control" id="semail" name="semail" aria-describedby="Email Address" placeholder="jdoe@gmail.com" required>
                             </div>
@@ -49,7 +53,7 @@
                                 <input type="number" min="1" max="12" class="form-control" id="grade" name="grade" aria-describedby="Grade" placeholder="7" required>
                             </div>
                             <div class="form-group">
-                                <label for="sphone">Phone Number</label>
+                                <label for="sphone">Phone Number<small>(If you have one!)</small></label>
                                 <input type="tel" class="form-control" id="sphone" name="sphone" aria-describedby="Phone Number" placeholder="(513) 555-5555">
                             </div>
                             <div class="form-group">
@@ -69,33 +73,17 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="laptop">Can you bring a laptop to camp every day?<span class="req">*</span></label>
-                                <div class="radio" id="laptop">
-                                    <label><input type="radio" name="laptop" value="yes" required>Yes</label><br>
-                                    <label><input type="radio" name="laptop" value="no" required>No</label>
-                                </div>
-                            </div>
-                            <div class="form-group">
                                 <label for="code">How much have you coded? <span class="req">*</span></label>
                                 <select class="form-control" id="code" name="code" required>
-                                    <!--<option selected disabled hidden>Coding Skill</option>-->
                                     <option>I've never coded before</option>
                                     <option>I've taken a few lessons</option>
                                     <option>I've finished a project</option>
                                     <option>I code frequently</option>
                                 </select>
-
-                                <!--<select class="form-control" id="code" name="code" required>-->
-                                <!--    <option>I've never coded before</option>-->
-                                <!--    <option>I've taken a few lessons</option>-->
-                                <!--    <option>I've finished a project</option>-->
-                                <!--    <option>I code frequently</option>-->
-                                <!--</select>-->
                             </div>
                             <div class="form-group">
                                 <label for="shirt">Shirt Size <span class="req">*</span></label>
                                 <select class="form-control" id="shirt" name="shirt" required>
-                                    <!--<option selected disabled hidden>Shirt Size</option>-->
                                     <option value="S">Adult Small</option>
                                     <option value="M">Adult Medium</option>
                                     <option value="L">Adult Large</option>
