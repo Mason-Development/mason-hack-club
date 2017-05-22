@@ -21,11 +21,11 @@
 }
 
 h1 {
-    font-family: "Lemonmilk";
+    font-family: "Lemonmilk", sans-serif;
 }
 
 h2, h3, h4, h5, h6, .btn {
-    font-family: "Lemonmilk";
+    font-family: "Lemonmilk", sans-serif;
     font-weight: 100;
 }
 
@@ -36,8 +36,6 @@ footer {
 
 .panel > .panel-heading {
     background-image: none;
-    /*font-family: "Lemonmilk";*/
-    /*font-weight: 100;*/
     background-color: #008948;
     color: #fff;
 
@@ -58,11 +56,7 @@ footer {
     margin-bottom: 0;
 }
 
-.no-decoration {
-    color: #fff;
-}
-
-.no-decoration:hover {
+.no-decoration, .no-decoration:hover {
     color: #fff;
 }
 
@@ -76,10 +70,6 @@ footer {
 
 .second {
     padding-top: 0;
-}
-.pop {
-    background-color: #ddeee6;
-    padding: 1px;
 }
 
 .hidden {
