@@ -32,11 +32,7 @@
 ### Day Two
 - 12:15
   - Check-in begins
-  - Announcements
-    - Get everyone settled
-    - Hand out info packets
-    - Lead introductions
-    - Parents come too (talk about tardiness)
+  - Encorage kids to mingle
 - 12:30
   - Split into groups
   - Introductions
