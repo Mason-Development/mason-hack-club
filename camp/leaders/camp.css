@@ -1,0 +1,74 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css");
+@import url("https://use.fontawesome.com/c684d46d81.css");
+
+
+@font-face {
+    font-family: Lemonmilk;
+    src: url(assets/lemonmilk/LemonMilk.otf);
+}
+
+@font-face {
+    font-family: Lemonmilk;
+    src: url(assets/lemonmilk/LemonMilkbold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Lemonmilk;
+    src: url(assets/lemonmilk/LemonMilklight.otf);
+    font-weight: 100;
+}
+
+h1 {
+    font-family: "Lemonmilk", sans-serif;
+}
+
+h2, h3, h4, h5, h6, .btn {
+    font-family: "Lemonmilk", sans-serif;
+    font-weight: 100;
+}
+
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #008948;
+    color: #fff;
+
+}
+
+.black {
+    color: #000;    
+}
+
+.person {
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+.block-green {
+    color: #fff;
+    background-color: #008948;
+    margin-bottom: 0;
+}
+
+.no-decoration, .no-decoration:hover {
+    color: #fff;
+}
+
+.req {
+    color: #FF4000;
+}
+
+.first {
+    padding-bottom: 0;
+}
+
+.second {
+    padding-top: 0;
+}
+
+.hidden {
+    display: none;
+}
+
