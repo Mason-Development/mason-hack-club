@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<head>
-</head>
-<body>
-
-</body>
+<html>
+  <head>
+    <title>Title</title>
+  </head>
+  <body>
+    
+  </body>
+</html>
