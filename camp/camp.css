@@ -3,6 +3,8 @@
 @import url("https://use.fontawesome.com/c684d46d81.css");
 
 
+
+
 @font-face {
     font-family: Lemonmilk;
     src: url(assets/lemonmilk/LemonMilk.otf);
@@ -19,6 +21,11 @@
     src: url(assets/lemonmilk/LemonMilklight.otf);
     font-weight: 100;
 }
+
+
+
+ * {border: 1px solid black;}
+
 
 h1 {
     font-family: "Lemonmilk", sans-serif;
