@@ -1,18 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="challenge-styles.css">
 </head>
 <body>
-  <h1>CSS PRACTICE</h1>
-  <ul>
-    <li>Make all list items font-size 24px</li>
-    <li class="red">Make class for underlined red text</li>
-    <li id="orange">Use ID Orange: center aligned, beige background with orange text</li>
-    <li id="border">Use ID for blue text with a black border</li>
-    <li class="verdana">Make Verdana class with font family Verdana</li>
-    <li class="red verdana">Use the RED class and the Verdana Class</li>
-  </ul>
+  
 </body>
 </html>
